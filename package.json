@@ -1,0 +1,19 @@
+{
+  "name": "vitetesting2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 8080",
+    "build:css": "postcss src/styles.css -o dist/styles.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  }
+}
